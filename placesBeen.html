@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.11.2.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Places</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Globetrotter</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="places">
+          <div class="form-group">
+            <label for="place-name">Enter the place name:</label>
+            <input type="text" class="form-control" id="place-name">
+          </div>
+
+          <div class="form-group">
+            <label for="place-year">Enter the year:</label>
+            <input type="text" class="form-control" id="place-year">
+          </div>
+
+          <div class="form-group">
+            <label for="place-city">Enter the city:</label>
+            <input type="text" class="form-control" id="place-city">
+          </div>
+        </div>
+      </div>
+        <button type="submit" class="btn"> Add</button>
+    </form>
+
+    <h2>Amazing Places:</h2>
+      <ul id ="place-list">
+      </ul>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div id= "show-places">
+            <h2></h2>
+
+            <p>Country: <span class="place-name"></span></p>
+            <p>Year Visited: <span class="place-year"></span></p>
+            <p>Cities: <span class="place-city"></span></p<
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
